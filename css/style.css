@@ -115,3 +115,44 @@ body{
     line-height: 1.5;
     color: var(--grayishBlue);
 }
+
+/* Clipboard */
+
+.clipboard{
+    text-align: center;
+}
+
+.clipboard-picture{
+    margin: 3em 0 6em;
+}
+.clipboard-img{
+    inline-size: 100%;
+    display: block;
+    margin: 0 auto;
+    max-inline-size: 25rem;
+}
+
+.clipboard-offer{
+    margin-block-start: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.clipboard-icon{
+    display: block;
+    inline-size: 2.81rem;
+    margin: 0 auto;
+    margin-block-end: 1.5em;
+}
+
+.clipboard-title{
+    font-size: 1.5rem;
+    color: var(--darkGrayishBlue);
+}
+
+.clipboard-paragraph{
+    color: var(--grayishBlue);
+    line-height: 1.5;
+    margin-block-start: 1em;
+}
