@@ -71,3 +71,47 @@ body{
     box-shadow: 0 0 10px -5px var(--lightBlue);
     background-color: var(--lightBlue);
 }
+
+/* Track */
+
+.track-texts{
+    text-align: center;
+}
+
+.title{
+    color: var(--darkGrayishBlue);
+    font-size: 2rem;
+}
+
+.paragraph{
+    line-height: 1.5;
+    color: var(--grayishBlue);
+    margin-block-start: 1.5em;
+}
+
+.track-img{
+    inline-size: 100%;
+    display: block;
+    max-inline-size: 25rem;
+    margin: 0 auto;
+    margin-block-start: 3.5em;
+}
+
+.track-articles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3.5em;
+    margin-block-start: 2.5em;
+}
+
+.track-offer{
+    color: var(--darkGrayishBlue);
+    font-size: 1.5rem;
+}
+
+.track-copy{
+    margin-block-start: .7em;
+    line-height: 1.5;
+    color: var(--grayishBlue);
+}
