@@ -213,3 +213,7 @@ body{
 .footer-icon{
     display: block;
 }
+
+@media (min-width:768px ) {
+
+}
