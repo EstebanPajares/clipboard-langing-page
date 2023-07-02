@@ -231,4 +231,149 @@ body{
     .buttons-cta{
         padding: 1em 3em;
     }
+
+    /* Track */
+
+    .track-texts{
+        text-align: center;
+    }
+
+    .title{
+        color: var(--darkGrayishBlue);
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        line-height: 1.5;
+        color: var(--grayishBlue);
+        margin-block-start: 1.5em;
+    }
+
+    .track-img{
+        inline-size: 100%;
+        display: block;
+        max-inline-size: 25rem;
+        margin: 0 auto;
+        margin-block-start: 3.5em;
+    }
+
+    .track-articles{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3.5em;
+        margin-block-start: 2.5em;
+    }
+
+    .track-offer{
+        color: var(--darkGrayishBlue);
+        font-size: 1.5rem;
+    }
+
+    .track-copy{
+        margin-block-start: .7em;
+        line-height: 1.5;
+        color: var(--grayishBlue);
+    }
+    /* Track */
+
+    .track-texts{
+        text-align: center;
+    }
+
+    .title{
+        color: var(--darkGrayishBlue);
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        line-height: 1.5;
+        color: var(--grayishBlue);
+        margin-block-start: 1.5em;
+    }
+
+    .track-img{
+        inline-size: 100%;
+        display: block;
+        max-inline-size: 25rem;
+        margin: 0 auto;
+        margin-block-start: 3.5em;
+    }
+
+    .track-articles{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3.5em;
+        margin-block-start: 2.5em;
+    }
+
+    .track-offer{
+        color: var(--darkGrayishBlue);
+        font-size: 1.5rem;
+    }
+
+    .track-copy{
+        margin-block-start: .7em;
+        line-height: 1.5;
+        color: var(--grayishBlue);
+    }
+
+    /* Track */
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .track {
+        --padding-container: 80px 0 0;
+        display: flex;
+        inline-size: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .track-texts{
+        inline-size: 90%;
+        margin: 0 auto;
+        margin-block-end: 1.5em;
+    }
+    .track-picture{
+        position: relative;
+        inline-size: 50%;
+        overflow: hidden;
+        height: 43.5rem;
+    }
+
+
+    .track-img {
+        inline-size: 125%;
+        max-inline-size: 40.625rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+
+    .track-articles {
+        inline-size: 42%;
+        gap: 3em;
+        margin: 0 auto;
+        text-align: left;
+        align-self: center;
+
+    }
+
+    .track-offer {
+        color: var(--darkGrayishBlue);
+        font-size: 1.5rem;
+    }
+
+    .track-copy {
+        margin-block-start: .7em;
+        line-height: 1.5;
+        color: var(--grayishBlue);
+    }
+
+
 }
